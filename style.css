@@ -1,3 +1,11 @@
+.righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +14,8 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
+    
+    font-size: 40px;
     background: linear-gradient(68.15deg, #2f2325 16.62%, #8E5D52 85.61%);
     color: #fff;
     line-height: 1.6;
@@ -25,10 +33,11 @@ header .logo-container img {
     max-width: 150px;
 }
 
+
 nav a {
     color: #fff;
     margin: 0 15px;
-    font-size: 1rem;
+    font-size: 25px;
     transition: color 0.3s ease;
 }
 
@@ -45,17 +54,40 @@ main {
     padding: 2rem;
     margin-bottom: 2rem;
     border-radius: 8px;
+
 }
 
 .sobre h1 {
-    font-size: 2rem;
+    font-size: 50px;
     margin-bottom: 1rem;
+    align-items: center;
+    border-bottom: 3px solid #ffbf00;
+    
 }
 
 .sobre p {
-    font-size: 1rem;
+    font-size: 30px;
     margin-bottom: 1rem;
 }
+
+.conteudo-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.texto-sobre {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+}
+
+.conteudo-sobre img {
+    max-width: 30%;
+    height: auto;
+}
+
 
 .donativos {
     background-color: rgba(0, 0, 0, 0.5);
@@ -64,12 +96,12 @@ main {
 }
 
 .donativos h2 {
-    font-size: 2rem;
+    font-size: 50px;
     margin-bottom: 1rem;
 }
 
 .donativos p {
-    font-size: 1rem;
+    font-size: 20px;
     margin-bottom: 1.5rem;
 }
 
@@ -103,4 +135,35 @@ footer {
 
 footer p {
     font-size: 0.9rem;
+}
+
+.text-relatos {
+    padding: 50px;
+}
+
+.text-relatos h1{
+    font-size: 35px;
+    border-bottom: 3px solid #ffbf00;
+    padding-bottom: 10px;
+    margin-bottom: 20px; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    background: linear-gradient(45deg, #ffbf00, #ffbf01);
+    -webkit-background-clip: text; 
+    color: transparent;
+}
+
+.text-relatos h2{
+    font-size: 25px;
+    margin-top: 20px;
+    border-bottom: 3px solid #2f2325;
+
+}
+
+.text-relatos h4{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.text-relatos p{
+    font-size: 20px;
 }
